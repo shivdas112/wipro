@@ -3,6 +3,8 @@ resource "aws_vpc" "name" {
     tags = {
       env = dev-env
       department = "cse"
+      Name = "my-vpc"
+      description = "this is my vpcccc222" 
     }
   
 }
